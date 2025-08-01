@@ -1,9 +1,9 @@
-import SideNav from "./sidenav.jsx";
+import SideNav from "/src/sidenav.jsx";
 
 function BackgroundDisplay() {
   return (
     <>
-      <div className="bg-[url('./public/1.png')] bg-fixed">
+      <div className="bg-[url('/2.png')] bg-cover bg-center bg-fixed min-h-screen w-full">
         <SideNav />
       </div>
     </>
